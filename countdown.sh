@@ -6,7 +6,7 @@
 # sh appname.sh "10 dec 2020" 
 
 echo "##################################"
-echo "	Holiday Countdown		"
+echo "		Countdown		"
 echo "##################################"
 
 today_date=$(date +"%dth of %h %Y")
@@ -20,7 +20,7 @@ answer=$(( (user_date - current_date) / 86400 ))
 
 if [ $answer -gt 0 ]
 then
-	echo "$answer days remaining for your Birthday or Holiday or Whatever you're searching for"
+	echo "$answer days remaining for anything (Holiday, Birthday, Visa Application, Anniversary, bla bla)"
 else
 #	answer=$(expr "$answer" : '^-\(.*\)')		# Using expr but this inovkes external process instead of doing it in the shell
 	((answer *= -1))				# changing or treating the negative to positive
