@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Countdown script or you can say script that gives your remaining left in future or days past
-# Similary, doing this, you can learn about how to use date in various ways.
+# Similary, doing this, you can learn about how to use date in various ways in BASH
 # To run sh appname.sh "date"
 # sh appname.sh "10 dec 2020" 
 
@@ -20,9 +20,9 @@ answer=$(( (user_date - current_date) / 86400 ))
 
 if [ $answer -gt 0 ]
 then
-	echo "$answer days remaining for anything (Holiday, Birthday, Visa Application, Anniversary, bla bla)"
+	echo "$answer days remaining for anything (Holiday, Birthday, Anniversary, bla bla)"
 else
 #	answer=$(expr "$answer" : '^-\(.*\)')		# Using expr but this inovkes external process instead of doing it in the shell
 	((answer *= -1))				# changing or treating the negative to positive
-	echo "$answer days have passed for anything you're searching for (Holiday, Birthday, Marriage, Visa Application, Housemove)"
+	echo "$answer days have passed for anything you're searching for (Holiday, Birthday, Marriage, bla bla"
 fi
