@@ -1,20 +1,17 @@
-Written in Bash and Python3 
-
+Written in Bash
+Python work in progress
 Script which gives your countdown of remaining days of anything from current date to future date be it your birthday or your upcoming holiday.
 
 It is very easy to use this
 
-#########    ## ##          #   
-#       #  ##    ##       ##
-#       #  ##    ##     ###
-#       #  ##    ## 
-# # # # #  ## ## ##
-#       #  ##    ##
-#       #  ##    ##
-#       #  ##	 ##	
-# # # # #  ##    ## 
-#################sh countdown.sh "give your date"
+$ countdown "give your date"
 
-#################For example: $ sh countdown.sh "19 Jun 2020"
+For example: 
 
-Python example
+$ countdown "01 Jan 2020"
+$ countdown 01012020
+$ countdown 01011900
+$ countdown 0101
+$ countdown 01Jan
+
+
