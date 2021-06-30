@@ -24,10 +24,18 @@ sleep 2
 echo "Successfully Installed"
 sleep 1
 echo ""
-echo "This a simple script which gives your countdown of remaining days."
-echo "It can be anything from current date to future date, be it your birthday or your upcoming holiday."
+echo "This a simple script which gives your countdown of remaining days.
+It can be anything from current date to future date, be it your birthday or your upcoming holiday."
 echo ""
-echo "Try:countdown ddmmyyy or countdown ddmonthyear or just countdown ddmonth"
-echo "For example: countdown 0101 or countdown 01Jan"
+echo "Try:countdown ddmmyyy or countdown ddmonthyear or just countdown ddmonth
+For example: 
+$ countdown "give your date"
+
+$ countdown "01 Jan 2020"
+$ countdown 01012020
+$ countdown 01011900
+$ countdown 0101
+$ countdown 01Jan
+"
 echo ""
 echo ""
