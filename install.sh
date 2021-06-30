@@ -29,4 +29,5 @@ echo "It can be anything from current date to future date, be it your birthday o
 echo ""
 echo "Try:countdown ddmmyyy or countdown ddmonthyear or just countdown ddmonth"
 echo "For example: countdown 0101 or countdown 01Jan"
-
+echo ""
+echo ""
